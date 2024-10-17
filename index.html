@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/billboard.png">
+    
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="images/الحسيني.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">اول ش بورسعيد امام يس ايس اتجاه ش البحر</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-1-1 </p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-11-07 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> الحسينى ماركت #SUIT1-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>6000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm()">حجز </button>
+                <script>
+                    function openForm() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>اول ش بورسعيد امام يس ايس اتجاه ش البحر</p>
+                                   <input type="hidden" name="location" value="اول ش بورسعيد امام يس ايس اتجاه ش البحر ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/قوارير.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">اول ش بورسعيد امام ابو الدهب اتجاه اخر حاجه </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-1-2</p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-01-03 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> قوارير #SUIT1-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm1()">حجز </button>
+                <script>
+                    function openForm1() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>اول ش بورسعيد امام ابو الدهب اتجاه اخر حاجه   </p>
+                                   <input type="hidden" name="location" value="اول ش بورسعيد امام ابو الدهب اتجاه اخر حاجه ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/عياده.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">امام الغول للموبايلات اتجاه شارع البحر </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-2-1 </p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>28-11-2024</p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د احمد الغندور #SUIT2-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>6000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm2()">حجز </button>
+                <script>
+                    function openForm2() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>امام الغول للموبايلات اتجاه شارع البحر  </p>
+                                   <input type="hidden" name="location" value="امام الغول للموبايلات اتجاه شارع البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/مكاوي.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">اول شارع بورسعيد امام يس ايس اتجاه شارع بورسعيد</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-2-2</p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-11-28</p><br>
+                <h2>العميل الحالي :</h2>
+                <p>المكاوى للاجهزة الكهربائية #SUIT-2-2</p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5500 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm3()">حجز </button>
+                <script>
+                    function openForm3() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>اول شارع بورسعيد امام يس ايس اتجاه شارع بورسعيد        </p>
+                                   <input type="hidden" name="location" value="اول شارع بورسعيد امام يس ايس اتجاه شارع بورسعيد     ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/محمد عبد الواحد.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">اول شارع بورسعيد امام يس ايس اتجاه شارع البحر</h3>
+                <h2>رقم الللوحه : </h2>
+                <p> UIT-3-1</p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-10-22 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د محمد عبد الواحد #SUIT3-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm4()">حجز </button>
+                <script>
+                    function openForm4() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>اول شارع بورسعيد امام يس ايس اتجاه شارع البحر        </p>
+                                   <input type="hidden" name="location" value="اول شارع بورسعيد امام يس ايس اتجاه شارع البحر     ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+
+
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/هيلث كير.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد اول ش سيلكت اتجاه ش بورسعيد </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-3-2 </p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-12-10 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> هيلث كير #SUIT3-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm5()">حجز </button>
+                <script>
+                    function openForm5() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p> شارع بورسعيد اول شارع سيليكت اتجاه شارع بورسعيد        </p>
+                                   <input type="hidden" name="location" value="اول شارع بورسعيد اول شارع سيليكت  اتجاه شارع بورسعيد     ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/العزبي.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام بنك QNB اتجاه ش
+                    البحر
+                     </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-4-1</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>15-05-2025</p><br>
+                <h2>العميل الحالي :</h2>
+                <p> صيدلية العزبى #SUIT4-1</p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4800 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm6()">حجز </button>
+                <script>
+                    function openForm6() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام بنك QNB اتجاه ش البحر      </p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام بنك QNB اتجاه ش البحر     ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/ويلسون.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام بنك QNB اتجاه ش
+                    بورسعيد
+                     </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-4-2</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-11-02 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>رانشوز #SUIT-4-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4700 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm7()">حجز </button>
+                <script>
+                    function openForm7() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام بنك QNB اتجاه ش بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام بنك QNB اتجاه ش بورسعيد  ">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الكابتن.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع بورسعيد امام النساجون الشرقيون اتجاه شارع البحر</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-5-1 </p><br>
+                <h2>المقاس :</h2>
+                <p>2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-09-28</p><br>
+                <h2>العميل الحالي :</h2>
+                <p>الكابتن ماركت # SUIT 5-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm8()">حجز </button>
+                <script>
+                    function openForm8() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام النساجون الشرقيون اتجاه شارع البحر</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام النساجون الشرقيون اتجاه شارع البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/مكس.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام النساجون اتجاه شارع بورسعيد</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-5-2 </p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 4 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-09-28 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> الكابتن ماركت #SUIT 5-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4500 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm9()">حجز </button>
+                <script>
+                    function openForm9() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام النساجون اتجاه شارع بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام النساجون اتجاه شارع بورسعيد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/خالد سنجاب.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام التوحيد والنور اتجاه شارع بورسعيد</h3>
+                <h2>رقم الللوحه : </h2>
+                <p> UIT-6-2</p><br>
+                <h2>المقاس :</h2>
+                <p>2 * 3 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-11-17 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> صيدلية سنجاب #SUIT 6-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm10()">حجز </button>
+                <script>
+                    function openForm10() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام التوحيد والنور اتجاه شارع بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام التوحيد والنور اتجاه شارع بورسعيد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/علاء الدين.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام التوحيد والنوراتجاه شارع البحر</h3>
+                <h2>رقم الللوحه : </h2>
+                <p> UIT-6-1 </p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>11-11-2024</p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مطعم علاء الدين #SUIT 6-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm11()">حجز </button>
+                <script>
+                    function openForm11() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام التوحيد والنوراتجاه شارع البحر</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام التوحيد والنوراتجاه شارع البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الطاهر.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">   
+                    شارع بورسعيد امام عصير زوال اتجاه ش بورسعيد</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-7-1 </p><br>
+                <h2>المقاس :</h2>
+                <p>2 * 3 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-06-01 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>مركز الطاهره #SUIT6-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3800 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm12()">حجز </button>
+                <script>
+                    function openForm12() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام عصير زوال اتجاه ش بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام عصير زوال اتجاه ش بورسعيد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الطاهر.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع بورسعيد امام عصير زوال اتجاه ش البحر
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-7-2 </p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 3 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-06-01 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مركز الطاهره #SUIT6-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3800 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm13()">حجز </button>
+                <script>
+                    function openForm13() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام عصير زوال اتجاه ش البحر</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام عصير زوال اتجاه ش البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/النقيب.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">شارع بورسعيد امام كازيون اتجاه ش بورسعيد</h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-8-2 </p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 3 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-01-05 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مركز النقيب للتخاطب #SUIT8-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm14()">حجز </button>
+                <script>
+                    function openForm14() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام كازيون اتجاه ش بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام كازيون اتجاه ش بورسعيد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/اكادميه.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع بورسعيد امام كازيون اتجاه شارع البحر
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-8-1</p><br>
+                <h2>المقاس :</h2>
+                <p>1234</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-10-01 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> ا هشام حماد #SUIT8-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm15()">حجز </button>
+                <script>
+                    function openForm15() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد امام كازيون اتجاه شارع البحر</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد امام كازيون اتجاه شارع البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/علاء الدين2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                
+شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ بورسعيد
+
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-9-2</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-11-19 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  مطعم علاء الدين #SUIT 2-1</p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4100 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm16()">حجز </button>
+                <script>
+                    function openForm16() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ بورسعيد</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ بورسعيد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/دكتوره.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ البحر
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-9-1</p><br>
+                <h2>المقاس :</h2>
+                <p> 2 * 3 </p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>  2024-12-12  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د يمنى مصطفى رجب #SUIT9-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4250 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm17()">حجز </button>
+                <script>
+                    function openForm17() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ البحر</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد - ميدان أبطال الفالوجة - اتجاة شـ البحر">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/مكاوي2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    ميدان فاطمة الزهراء سور الحديقة اتجاه الميدان
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-10</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-11-09  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  المكاوى للاجهزة الكهربائية #SUIT-10  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4500 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm18()">حجز </button>
+                <script>
+                    function openForm18() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>ميدان فاطمة الزهراء سور الحديقة اتجاه الميدان</p>
+                                   <input type="hidden" name="location" value="ميدان فاطمة الزهراء سور الحديقة اتجاه الميدان">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/مجوهرات.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    بجوار مصنع غزل ميت غمر اتجاه طريق القاهرة
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-12</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-08-16  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>مجوهرات غيث #SUIT12  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm19()">حجز </button>
+                <script>
+                    function openForm19() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>بجوار مصنع غزل ميت غمر اتجاه طريق القاهرة</p>
+                                   <input type="hidden" name="location" value="بجوار مصنع غزل ميت غمر اتجاه طريق القاهرة">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/كابتن2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحرية امام نادى ميت غمر اتجاه عمر افندي
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-13 </p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-04-15  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> الكابتن ماركت #SUIT13 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>6000 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm20()">حجز </button>
+                <script>
+                    function openForm20() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع الحرية امام نادى ميت غمر اتجاه عمر افندي</p>
+                                   <input type="hidden" name="location" value="  شارع الحرية امام نادى ميت غمر اتجاه عمر افندي">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/فلافل.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه مصر والسودان
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-14-2</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2025-10-13  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> محل فلافل #SUIT 14-2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm21()">حجز </button>
+                <script>
+                    function openForm21() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه مصر والسودان</p>
+                                   <input type="hidden" name="location" value="شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه مصر والسودان">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/فاتن.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه الشاشة
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p> UIT-14-1 </p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-11-02 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د فاتن قنديل #SUIT 14-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>3700 L.E</td>
+                        <td>3600 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm21()">حجز </button>
+                <script>
+                    function openForm21() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه الشاشة</p>
+                                   <input type="hidden" name="location" value="شارع الحرية حديقة احمد عرابى امام شوب النيل اتجاه الشاشة">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/داليا.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                   شارع الحرية حديقة احمد عرابى امام سور النادى اتجاه المعدية
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-15-2</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2025-03-10 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> Zoo clinic #SUIT 15-2. </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>2750 L.E</td>
+                        <td>2550 L.E</td>
+                        <td>2450 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                            
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/محي الدين.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحرية حديقة احمد عرابى امام سور النادى قسم الشرطة
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-15-1</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2025-01-03  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مخبوزات محيى الدين #SUIT15-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>3900 L.E </td>
+                        <td>4200 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                              
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/فطير.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع البحر امام حديقة احمد عرابى اتجاه معدية العسال
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-16</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-07-03  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  ا محمد الفخرانى #SUIT-16 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>2700 L.E</td>
+                        <td>2600 L.E </td>
+                        <td>2500 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                             
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/هيلث كير2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+               شارع احمد عرابي امام مصر والسودان اتجاه بنك القاهره
+                  </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-17</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-12-10  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  هيلث كير #SUIT-17  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3900 L.E</td>
+                        <td>غير متاح</td>
+                        <td>0 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm22()">حجز </button>
+                <script>
+                    function openForm22() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع احمد عرابي امام مصر والسودان اتجاه بنك القاهره</p>
+                                   <input type="hidden" name="location" value="شارع احمد عرابي امام مصر والسودان اتجاه بنك القاهره">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/النقيب2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحرية امام بن الوتيدى اتجاه ارض النت - يسار
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-18</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-12-19  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  مركز النقيب للتخاطب #SUIT19 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4000 L.E</td>
+                        <td>4000 L.E </td>
+                        <td>4000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm23()">حجز </button>
+                <script>
+                    function openForm23() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع الحرية امام بن الوتيدى اتجاه ارض النت - يسار</p>
+                                   <input type="hidden" name="location" value="شارع الحرية امام بن الوتيدى اتجاه ارض النت - يسار">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/فيصل.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع الحريه امام بن الوتيدى اتجاه ارض النت - يمين
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-19</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-04-04  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  د فيصل خيال #SUIT- 19  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3650 L.E</td>
+                        <td>3750 L.E </td>
+                        <td>3950 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm24()">حجز </button>
+                <script>
+                    function openForm24() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع الحريه امام بن الوتيدى اتجاه ارض النت - يمين</p>
+                                   <input type="hidden" name="location" value="شارع الحريه امام بن الوتيدى اتجاه ارض النت - يمين">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/فاتن2.jpg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                   امام كشرى الحسينى اتجاه الكليه النوعية
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-20-2</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-09-02 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>د فاتن قنديل #SUIT20-2  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3000 L.E</td>
+                        <td>3000 L.E </td>
+                        <td>3000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm25()">حجز </button>
+                <script>
+                    function openForm25() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>امام كشرى الحسينى اتجاه الكليه النوعية</p>
+                                   <input type="hidden" name="location" value="امام كشرى الحسينى اتجاه الكليه النوعية">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/وئام.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    امام كشرى الحسينى اتجاه السكه الحديد
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-20-1</p><br>
+                <h2>المقاس :</h2>
+                <p>3*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-11-02  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  د وئام الشهابى #SUIT20-1 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>3000 L.E</td>
+                        <td>3000 L.E</td>
+                        <td>3000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm26()">حجز </button>
+                <script>
+                    function openForm26() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>امام كشرى الحسينى اتجاه السكه الحديد</p>
+                                   <input type="hidden" name="location" value="امام كشرى الحسينى اتجاه السكه الحديد">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الشروق.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع العاشر من رمضان امام موقف العاشر اتجاه كوبري البراميل
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-23</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2025-04-15 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مركز الشروق #SUIT-23  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4600 L.E</td>
+                        <td>4000 L.E</td>
+                        <td>3950 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm27()">حجز </button>
+                <script>
+                    function openForm27() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع العاشر من رمضان امام موقف العاشر اتجاه كوبري البراميل</p>
+                                   <input type="hidden" name="location" value="شارع العاشر من رمضان امام موقف العاشر اتجاه كوبري البراميل">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الوحش.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    شارع العاشرمن رمضان امام موقف العاشر اتجاه الكوبري العلوي
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>UIT-24</p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2024-11-28  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د احمد الوحش #SUIT-24  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4600 L.E</td>
+                        <td>4000 L.E </td>
+                        <td>3950 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm28()">حجز </button>
+                <script>
+                    function openForm28() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع العاشرمن رمضان امام موقف العاشر اتجاه الكوبري العلوي</p>
+                                   <input type="hidden" name="location" value="شارع العاشرمن رمضان امام موقف العاشر اتجاه الكوبري العلوي
+">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/بطن.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    ميدان المحطة
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>SUIT-X2 </p><br>
+                <h2>المقاس :</h2>
+                <p>5*3</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-01-28  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> د هشام عبد الله #SUIT-X2  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>5000 L.E </td>
+                        <td>5000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                               
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الشيوي.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    أمام مستشفي الأورام
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <pSUIT-X </p><br>
+                <h2>المقاس :</h2>
+                <p>5*3</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p>2025-01-26  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  د احمد الشيوى #SUIT- X </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>5000 L.E </td>
+                        <td>5000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                           
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/السويدي.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                    ميدان المحطة ، إتجاة السكة الحديد
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>SUIT-X2 </p><br>
+                <h2>المقاس :</h2>
+                <p>5*3</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-12-30  </p><br>
+                <h2>العميل الحالي :</h2>
+                <p> مركز السويدى #SUIT-X2 </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>5000 L.E</td>
+                        <td>5000 L.E</td>
+                        <td>5000 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                              
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/الشروق2.jpeg"  class="card-img-top" width="350" height="350">
+            <div class="card-body">
+                <h3 class="card-title">
+                   شارع بورسعيد ، خلف الشاشة الالكترونية ، أمام الغول للموبايلات
+                    </h3>
+                <h2>رقم الللوحه : </h2>
+                <p>SUIT-Z </p><br>
+                <h2>المقاس :</h2>
+                <p>4*2</p><br>
+                <h2>التاريخ المتوقع للانتهاء : </h2>
+                <p> 2024-11-21 </p><br>
+                <h2>العميل الحالي :</h2>
+                <p>  مركز الشروق #SUIT-Z  </p><br>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>3 شهور</td>
+                        <td>6 شهور</td>
+                        <td>12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>4700 L.E</td>
+                        <td>4700 L.E </td>
+                        <td>4700 L.E</td>
+                    </tr>
+                </table>
+                <h6>السعر شامل التصميم والطباعه باستثناء باقه ال 3 شهور</h6>
+                <button onclick="openForm29()">حجز </button>
+                <script>
+                    function openForm29() {
+                        const formWindow = window.open("", "FormWindow", "width=400,height=500");
+                        formWindow.document.write(`
+                            <!DOCTYPE html>
+                            <html lang="ar">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>حجز لوحة</title>
+                                <style>
+                                    body { font-family: Arial, sans-serif; padding: 20px; direction: rtl;}
+                                    label { display: block; margin: 10px 0 5px; }
+                                    input, select{ width: 100%; padding: 8px; margin-bottom: 10px; border-color:#C8A1E0;border-radius: 50px; }
+                                    button { padding: 10px 20px; margin-top: 10px;border-radius: 50px; }
+                                    .btn-close { background-color: #E8E2E2; color: black; }
+                                    .btn-submit { background-color: #C738BD; color: white; }
+                                    hr{width: 100%; height: 3px; background-color: #C8A1E0;}
+                                </style>
+                            </head>
+                            <body>
+                                <h2>حجز لوحة</h2>
+                                <hr>
+                                <form method="post" action="process_form.php">
+                                   <label for="location">مكان اللوحة</label>
+                                   <p>شارع بورسعيد ، خلف الشاشة الالكترونية ، أمام الغول للموبايلات</p>
+                                   <input type="hidden" name="location" value="شارع بورسعيد ، خلف الشاشة الالكترونية ، أمام الغول للموبايلات">
+            
+                                   <label for="name">الاسم بالكامل</label>
+                                   <input type="text" id="name" name="name" required>
+            
+                                   <label for="package">الباقة المختارة</label>
+                                   <select id="package" name="package" required>
+                                     <option value="3 أشهر">3 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="6 أشهر">6 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                     <option value="12 أشهر">12 أشهر - السعر الإجمالي: 15000 ج.م</option>
+                                  </select>
+            
+                                  <label for="phone">رقم التليفون</label>
+                                  <input type="text" id="phone" name="phone" pattern="^01[0-9]{9}$" required>
+            
+                                 <button type="submit" class="btn-submit">إرسال</button>
+                                 <button type="button" class="btn-close" onclick="window.close()">إغلاق</button>
+            </form>
+                            </body>
+                            </html>
+                        `);
+                    }
+                </script>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
